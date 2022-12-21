@@ -13,6 +13,7 @@ body{
     border-radius: 10px;
     row-gap: 1%;
     column-gap: 1%;
+    margin-bottom: 0;
 }
 .homeBox{
     display: flex;
@@ -21,6 +22,8 @@ body{
     margin: 1%;
     width:50%;
     height:50%;
+    min-width: 145px;
+    min-height: 145px;
 }
 #infoBox{
     background-color: #fff;
@@ -46,9 +49,7 @@ body{
     background: yellow;
 }
 .homeText{
-    font-size: 2rem;
-    padding: 3rem;
-    border-radius: 1rem;
+    font-size: 2em;
     text-decoration: none;
     color: #000;
 }

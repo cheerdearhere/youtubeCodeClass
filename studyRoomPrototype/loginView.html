@@ -6,23 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login form</title>
     <link rel="stylesheet" href="css/loginView.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
 </head>
 <body>
-    <div class="loginContainer">
+
+    <div id="loginContainer">
         <form action="login" method="post" id="loginFrm">
             
         </form>
     </div>
     <div id="footer">
-        <div class="footerInfo">
-            pageName<br/>
-            회사명: -----<br/>
-            주소: ----
+        <div class="footerBox">
+            <p id="footerPageName" class="footerLabel">YCHackers</p>
+            <p id="footerCompany">
+                <span class="footerLabel">회사명</span> (사)양천구해커스
+            </p>
+            <p id="footerCompanyNum">
+                <span class="footerLabel">사업자번호</span> 000-00-00000
+            </p>
+            <p id="footerAddress">서울특별시 양천구 신정동 1319-4 양천중앙도서관 </p>
+            <a class="footerLink" id="companyIntro" href="companyIntro">회사소개</a>&emsp; 
+            <a class="footerLink" id="termsOfService" href="termsOfService">서비스이용약관</a> &emsp;
+            <a class="footerLink" id="privacyPolicy" href="privacyPolicy">개인정보처리방침</a>
         </div>
-        <div class="footerDetails">
-            회사소개 &emsp; 서비스이용약관 &emsp; 개인정보처리방침<br/>
-            등록문의: 연락처<br/>
-            COPYRIGHT &copy; 2018(주)----- ALL RIGHTS RESERVED
+        <div class="footerBox">
+            <p>
+                <span class="footerLabel">등록문의</span> 000-0000-0000
+            </p>
+            <p>
+                <span class="footerLabel">기타문의</span> 000-0000-0000
+            </p>
+            <br/><br/>
+            <p>
+                <span id="footerCopy">COPYRIGHT &copy; 2022(주)양천구해커스 ALL RIGHTS RESERVED</span>
+            </p>
         </div>
     </div>
 </body>
