@@ -9,3 +9,13 @@
 a{
     text-decoration: none;
 }
+#myInfoBox{
+    width:30%;
+    margin-left:auto;
+}
+.myInfoLink{
+    color:#000;
+}
+.nav-link{
+   color:black; 
+}
