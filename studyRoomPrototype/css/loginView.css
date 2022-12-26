@@ -13,6 +13,10 @@ body{
     color:black;
     font-size: smaller;
 }
+#loginContainer{
+    height: 2em;
+    margin-top: 15%;
+}
 .input-group{
     width: 80%;
     margin: auto;
@@ -25,4 +29,10 @@ body{
     width: 5%;
     margin: auto;
     border: #000 0.1px solid;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
 }
