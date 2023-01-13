@@ -5,16 +5,19 @@ var url = "https://mimo.app/i/lori.png";
 var header = <h1>Hello, Lori Smith! react script</h1>;
 var subheader = <h2>The movie</h2>;
 
-var app = (
-    <div>
+function MyApp(){
+    return <div>
         {header} <br/>
         {subheader} <br/>
         <img src={url} alt="Lori's Profile"/>
-    </div>
-);
-
+    </div>;
+}
+const container=document.getElementById('root');
+const root = ReactDOM.creatRoot(container);
+root.render(<MyApp />);
+/*
 ReactDOM.render(
-    app,
+    MyApp,
     document.getElementById("root")
 );
 
@@ -30,5 +33,5 @@ const App = (props) => {
 ReactDOM.render(
     <App name="Smith"/>,
     document.getElementById("root")
-
 );
+*/
